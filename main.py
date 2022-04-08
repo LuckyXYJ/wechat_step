@@ -126,10 +126,6 @@ def changeStep(user_name, passwd, step):
     return result
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    t = int(time.time() * 1000)
-    print('PyCharm', t)
     changeStep('', '', 25003)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
